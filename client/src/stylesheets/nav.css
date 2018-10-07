@@ -1,0 +1,42 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.navContainer .menuContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navContainer .menuContainer a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #999;
+}
+
+.navContainer .menuContainer a:hover {
+  color: #000;
+}
+
+.navContainer .menuContainer a.active {
+  color: #000;
+}
+
+.navContainer .menuContainer a:last-of-type {
+  margin-right: 0;
+}
+
+.navContainer .logoContainer img {
+  height: 50px;
+}
+
+.navContainer .actionContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navContainer .actionContainer .search {
+  margin-right: 15px;
+}
